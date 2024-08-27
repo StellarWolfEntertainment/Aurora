@@ -1,0 +1,34 @@
+{
+  "options": [
+    {
+      "name": "Vector Swizzling",
+      "define": "AUR_VECTOR_SWIZZLING",
+      "description": "Enable vector swizzle properties.",
+      "default": true
+    },
+    {
+      "name": "Inline Vector Math",
+      "define": "AUR_INLINE_VECTOR_MATH",
+      "description": "Determines if Vector math operations should be found in 'Math' or 'Vector*', this also applies to 'Quaternion'.",
+      "default": false
+    },
+    {
+      "name": "Inline Matrix Math",
+      "define": "AUR_INLINE_MATRIX_MATH",
+      "description": "Determines if Matrix math operations should be found in 'Math' or 'Matrix*'.",
+      "default": false
+    },
+    {
+      "name": "Inline Color Math",
+      "define": "AUR_INLINE_COLOR_MATH",
+      "description": "Determines if Color math operations should be found in 'Math' or 'Color*'.",
+      "default": false
+    },
+    {
+      "name": "Include Color Defaults",
+      "define": "AUR_COLOR_DEFAULTS",
+      "description": "Determines if Color* will provide 'default' color presets.",
+      "default": true
+    }
+  ]
+}
